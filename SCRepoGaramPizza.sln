@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationTests", "RegistrationTests\RegistrationTests.csproj", "{3BE30C2C-9DFA-4A9C-94D1-91FF4C62E3AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCGaramPizza", "SCGaramPizza\SCGaramPizza.csproj", "{36B65241-C9CA-4134-9D68-12337ED0C028}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{3BE30C2C-9DFA-4A9C-94D1-91FF4C62E3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BE30C2C-9DFA-4A9C-94D1-91FF4C62E3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BE30C2C-9DFA-4A9C-94D1-91FF4C62E3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B65241-C9CA-4134-9D68-12337ED0C028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B65241-C9CA-4134-9D68-12337ED0C028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B65241-C9CA-4134-9D68-12337ED0C028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B65241-C9CA-4134-9D68-12337ED0C028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
