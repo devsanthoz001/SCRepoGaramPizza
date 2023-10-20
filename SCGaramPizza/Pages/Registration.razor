@@ -10,27 +10,26 @@
 
     <div class="container" style="background-color: yellowgreen;">
         <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Name :</span>
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                aria-describedby="basic-addon1">
+            <label for="name">Name : </label>
+            <InputText @bind-Value="Model.Name"></InputText>
         </div>
         <br>
 
         <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Mobile Number :</span>
-            <input type="number" class="form-control" placeholder="Enter Mobile Number">
+            <label for="Mobile">Mobile Number : </label>
+            <InputText type="number" @bind-Value="Model.MobileNumber"></InputText>
         </div>
 
         <br>
 
         <div class="input-group">
-            <span class="input-group-text">Address :</span>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
+            <label for="address">Address : </label>
+            <InputText @bind-Value="Model.Address"></InputText>
         </div>
 
         <br>
 
-        <button type="button" class="btn btn-success"> Register </button>
+        <button type="button" class="btn btn-success" @onclick="AddToRecord"> Register </button>
     </div>
 
 </div>
