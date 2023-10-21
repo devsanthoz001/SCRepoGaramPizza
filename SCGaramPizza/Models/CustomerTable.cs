@@ -6,14 +6,14 @@ namespace SCGaramPizza.Models
 
     public partial class CustomerTable
     {
-        [Required]        
+        [Required]
         [Column("CusName")]
         public string CusName { get; set; }
         [Column("CusMobile")]
         public string CusMobile { get; set; }
         [Column("CusAddress")]
         public string CusAddress { get; set; }
-        
+
         public string Columns()
         {
             return $"|CusName|CusMobile|CusAddress|";

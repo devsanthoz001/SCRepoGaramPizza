@@ -3,15 +3,14 @@ namespace RegistrationTests;
 public class RegistrationTest
 {
   [Fact]
-  public void TestNameisNotNull()
+  public void NameisNotNullTest()
   {
-
     // Arrange
-    Register check = new Register();
+    Register customerRegistration = new Register();
     // Act
-    check.Name = "santhosh";
+    customerRegistration.Name = "santhosh";
     // Assert
-    Assert.NotEmpty(check.Name);
+    Assert.NotEmpty(customerRegistration.Name);
   }
   [Fact]
   public void TestMobileNumberisNotNull()
